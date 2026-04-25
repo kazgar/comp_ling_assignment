@@ -51,12 +51,6 @@ repos:
       - id: docformatter
         args: [--in-place, --wrap-summaries=100, --wrap-descriptions=100]
 
-  # jupyter notebook cell output clearing
-  - repo: https://github.com/kynan/nbstripout
-    rev: 0.8.1
-    hooks:
-      - id: nbstripout
-
   # jupyter notebook linting
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.9.1
